@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 }
 
 @Component
-@SomeAnnotation // <-- annotation does not work here
+//@SomeAnnotation // <-- annotation does not work here
 class Test(val hello: Hello) {
 
     @SomeAnnotation // <-- annotation works here
